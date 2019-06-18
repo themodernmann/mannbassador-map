@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 1em;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+body, html {
+  margin: 0;
+  overflow: hidden;
+}
+
+svg{
+  background-color: #F8F8F8;
+  /* #eceff4 */
+}
+/* Map CSS */
+.ocean {
+  /* fill: #bfd7e4; */
+  fill: #88c0d0;
+  stroke: #D8DEE9;
+}
+
+.land {
+  fill: #E5E9F0;
+}
+
+.boundary {
+  fill: none;
+  stroke: #9fa8ad;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  vector-effect: non-scaling-stroke;
+}
+.hidden{
+  display: none !important;
+}
+.map-title{
+  color: #c40808;
+  position: absolute;
+  z-index: 100;
+  font-family: Bitter, serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 0;
+}
+
+/* Zoom Css */
+.zoom-text{
+  font-family: sans-serif;
+  fill: #e5b20b;
+  font-weight: bold;
+}
+/* Tooltip CSS */
+#tooltip{
+  position: absolute;
+  font-family: Cabin, sans-serif;
+  width: 200px;
+  height: auto;
+  background-color: #c40808;
+  color: #e5b20b;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  z-index: 1012;
+}
+#tooltip-close{
+  position: absolute;
+  right: 15px;
+  cursor: default;
+}
+
+/* About CSS */
+.about{
+  position: absolute;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: .5rem 1fr minmax(36ch, 85ch) 1fr.5rem;
+}
+.map-menu{
+  position: absolute;
+  right: 0;
+  margin: 1.5rem 1rem 1rem 1rem;
+  font-size: 2rem;
+  color: #c40808;
+  z-index: 101;
+}
+.close{
+  position: absolute;
+  right: 0;
+  margin: 1.5rem 1rem 1rem 1rem;
+  font-size: 2rem;
+  color: #c40808;
+  z-index: 1011;
+}
+#spacer{
+  height: 2.5rem;
+  grid-column: 3;
+}
+section{
+  grid-column: 3;
+  padding-bottom: 1em;
+}
+h2{
+  font-family: Bitter, serif;
+  color: #2a0604
+}
+a, a:visited{
+  text-decoration: none;
+  color: #c40808;
+}
+a:hover{
+  text-decoration: none;
+  color:#e5b20b
+}
+table,p{
+  font-family: Cabin, sans-serif;
+}
+table{
+  text-align: left;
+  margin: .5rem auto .5rem auto;
+}
+th, td{
+  padding: .25rem;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.zoom{
+  display: none;
+}
+.zoom-text{
+  cursor: default;
+}
+@media (hover: none){
+  .zoom{
+    display: block;
+  }
+}
+
+@media (max-width: 322px) {
+  .map-title{
+    margin: .25rem;
+  }
+}

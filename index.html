@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mannbassadors</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://static1.squarespace.com/static/56152036e4b0580ddff14273/t/5616abe6e4b03dd528e45e03/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v1.min.js"></script>
+    <script src="mathsfunctions.js"></script>
+  </head>
+<body>
+<h1 class="map-title">Mannbassadors</h1>
+<i class="map-menu fas fa-bars"></i>
+<div id="tooltip" class="hidden">
+    <span id="tooltip-close">X</span>
+    <p id="tool-name">Name:</p>
+    <p id="tool-destination">Destination:</p>
+    <p id="tool-notes"></p>
+</div>
+<div id="svgDiv"></div>
+<article class="about hidden">
+    <i class="close fas fa-times"></i>
+    <div id="spacer"></div>
+    <section>
+    <h2>Mannbassadors:</h2>
+    <p>The full list of Mannbassadors, as well as the coordinates used for their locations, can be found <a target="_blank" href="https://docs.google.com/spreadsheets/d/1bQwiCL7kvjqzM-802hhvDIfOtdNa6PHRbUy9LuUt8ZQ/edit?usp=sharing">here</a>. While most Mannbassadors are placed where you would expect (i.e. the point for David from Christchurch is placed in Christchurch) some of the more unconventional jurisdictions required special placement. They are:</p>
+    <table>
+        <tr>
+            <th>Name:</th>
+            <th>Jurisdiction:</th>
+            <th>Location on the Map:</th>
+        </tr>
+        <tr>
+            <td>Fuzz</td>
+            <td>Music</td>
+            <td>Ugarit, Syria, location of the oldest, surviving, substantially complete piece of written music.</td>
+        </tr>
+        <tr>
+            <td>Rip</td>
+            <td>Babyboomers</td>
+            <td>The headquarters of the American Association of Retired Persons in Washington DC.</td>
+        </tr>
+        <tr>
+            <td>Aidan</td>
+            <td>The RAF</td>
+            <td>RAF Brize Norton</td>
+        </tr>
+        <tr>
+            <td>Sister Shelly</td>
+            <td>The NHS</td>
+            <td>St. Thomas's Hospital in London.</td>
+        </tr>
+        <tr>
+            <td>Phil</td>
+            <td>Tottenham Hotspur</td>
+            <td>Tottenham Hotspur's stadium.</td>
+        </tr>
+        <tr>
+            <td>Nick</td>
+            <td>Under the bridge at the South Bank</td>
+            <td>It's unclear specifically what bridge is referred to, but absent further information the Hungerford and Golden Jubilee Bridges have been used.</td>
+        </tr>
+        <tr>
+            <td>Charlie</td>
+            <td>Charlie</td>
+            <td>Location chosen for approximate location of the Clair Oil Field.</td>
+        </tr>
+    </table>
+    <p>If any of you feel a different location would better represent your jurisdiction, please get in touch!</p>
+    </section>
+    <section>
+        <h2>About this map:</h2>
+        <p>Parts of this map are based on code from <a target="_blank" href="https://bl.ocks.org/sarah37/d8a1722f7d9f2a40eb07a3e99bf3c0be">this block</a>, where you can also read more about the math that goes into making globes rotate.
+    </section> 
+</article>
+
+<script type="text/javascript" src="globe.js"></script>
+
+</body>
+</html>
