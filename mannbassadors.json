@@ -1,5 +1,5 @@
 {"type": "FeatureCollection","features": [ 
-{"type": "Feature", "properties": {"episode":"10/2","destination":"Milan","mannbassador":"Matteo","featurecla":"city","notes":"","latitude":37.6537,"longitude":-122.4197}, "geometry": {"type": "Point", "coordinates": [9.1833333 , 45.466667] } },
+{"type": "Feature", "properties": {"episode":"10/2","destination":"Milan","mannbassador":"Matteo","notes":""}, "geometry": {"type": "Point", "coordinates": [9.1833333 , 45.466667] } },
 {"type": "Feature", "properties": {"episode":"10/1","destination":"Rome","mannbassador":"Sammy","featurecla":"city","notes":"","latitude":37.6537,"longitude":-122.4197}, "geometry": {"type": "Point", "coordinates": [-122.4197 , 37.6537] } },
 {"type": "Feature", "properties": {"episode":"4/4","destination":"San Jose, California","mannbassador":"Berry","featurecla":"city","notes":"","latitude":37.302,"longitude":-121.8488}, "geometry": {"type": "Point", "coordinates": [-121.8488 , 37.302] } },
 {"type": "Feature", "properties": {"episode":"9/3","destination":"Montana, USA","mannbassador":"Nate","featurecla":"stateorprovince","notes":"","latitude":46.8797,"longitude":-110.3626}, "geometry": {"type": "Point", "coordinates": [-110.3626 , 46.8797] } },
