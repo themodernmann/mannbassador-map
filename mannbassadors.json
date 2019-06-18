@@ -1,5 +1,4 @@
 {"type": "FeatureCollection","features": [ 
-//{"type": "Feature", "properties": {"episode":"EPISODE NUMBER","destination":"DESTINATION","mannbassador":"NAME","featurecla":"city","notes":"","latitude":37.6537,"longitude":-122.4197}, "geometry": {"type": "Point", "coordinates": [-122.4197 , 37.6537] } },  
 {"type": "Feature", "properties": {"episode":"10/2","destination":"Milan","mannbassador":"Matteo","featurecla":"city","notes":"","latitude":37.6537,"longitude":-122.4197}, "geometry": {"type": "Point", "coordinates": [9.1833333 , 45.466667] } },
 {"type": "Feature", "properties": {"episode":"10/1","destination":"Rome","mannbassador":"Sammy","featurecla":"city","notes":"","latitude":37.6537,"longitude":-122.4197}, "geometry": {"type": "Point", "coordinates": [-122.4197 , 37.6537] } },
 {"type": "Feature", "properties": {"episode":"4/4","destination":"San Jose, California","mannbassador":"Berry","featurecla":"city","notes":"","latitude":37.302,"longitude":-121.8488}, "geometry": {"type": "Point", "coordinates": [-121.8488 , 37.302] } },
