@@ -1,4 +1,5 @@
 {"type": "FeatureCollection","features": [ 
+{"type": "Feature", "properties": {"episode":"10/5","destination":"Seattle","mannbassador":"Derek","notes":"attaché Jennie"}, "geometry": {"type": "Point", "coordinates": [-122.333056 , 47.609722] } },
 {"type": "Feature", "properties": {"episode":"5/9","destination":"Yerevan","mannbassador":"Stuart","notes":""}, "geometry": {"type": "Point", "coordinates": [44.514444 , 40.181389] } },
 {"type": "Feature", "properties": {"episode":"10/2","destination":"Milan","mannbassador":"Matteo","notes":""}, "geometry": {"type": "Point", "coordinates": [9.1833333 , 45.466667] } },
 {"type": "Feature", "properties": {"episode":"10/1","destination":"Rome","mannbassador":"Sammy","featurecla":"city","notes":"","latitude":37.6537,"longitude":-122.4197}, "geometry": {"type": "Point", "coordinates": [-122.4197 , 37.6537] } },
